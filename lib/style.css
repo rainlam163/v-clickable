@@ -1,0 +1,87 @@
+:root {
+    --vk-primary: #409eff;
+    --vk-primary-light: #a0cfff;
+    --vk-primary-dark: #337ecc;
+
+    --vk-success: #67c23a;
+    --vk-success-light: #b3e19d;
+    --vk-success-dark: #529b2e;
+
+    --vk-warning: #e6a23c;
+    --vk-warning-light: #f3d19e;
+    --vk-warning-dark: #b88230;
+
+    --vk-danger: #f56c6c;
+    --vk-danger-light: #fab6b6;
+    --vk-danger-dark: #c45656;
+
+    --vk-info: #909399;
+    --vk-info-light: #c8c9cc;
+    --vk-info-dark: #73767a;
+}
+
+.v-clickable {
+    cursor: pointer;
+}
+
+.v-clickable--link {
+    text-decoration: underline;
+}
+
+.v-clickable--button {
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+.v-clickable--button:hover {
+    background-color: #f5f7fa;
+}
+
+.v-clickable--primary {
+    color: var(--vk-primary);
+}
+.v-clickable--primary:hover {
+    color: var(--vk-primary-light);
+}
+.v-clickable--primary:active {
+    color: var(--vk-primary-dark);
+}
+
+.v-clickable--success {
+    color: var(--vk-success);
+}
+.v-clickable--success:hover {
+    color: var(--vk-success-light);
+}
+.v-clickable--success:active {
+    color: var(--vk-success-dark);
+}
+
+.v-clickable--warning {
+    color: var(--vk-warning);
+}
+.v-clickable--warning:hover {
+    color: var(--vk-warning-light);
+}
+.v-clickable--warning:active {
+    color: var(--vk-warning-dark);
+}
+
+.v-clickable--danger {
+    color: var(--vk-danger);
+}
+.v-clickable--danger:hover {
+    color: var(--vk-danger-light);
+}
+.v-clickable--danger:active {
+    color: var(--vk-danger-dark);
+}
+
+.v-clickable--info {
+    color: var(--vk-info);
+}
+.v-clickable--info:hover {
+    color: var(--vk-info-light);
+}
+.v-clickable--info:active {
+    color: var(--vk-info-dark);
+}

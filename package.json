@@ -1,0 +1,30 @@
+{
+  "name": "v-clickable",
+  "version": "0.0.1",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/v-clickable.umd.cjs",
+  "module": "./dist/v-clickable.js",
+  "exports": {
+    ".": {
+      "import": "./dist/v-clickable.js",
+      "require": "./dist/v-clickable.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "vite": "^5.4.1",
+    "vite-plugin-css-injected-by-js": "^3.5.1",
+    "vue": "^3.4.37"
+  },
+  "dependencies": {
+    "v-clickable": "^0.0.1"
+  }
+}
